@@ -43,11 +43,6 @@ Deep Research is an AI-powered research assistant that automates the process of 
    ```bash
    pip install gradio python-dotenv sendgrid pydantic
    ```
-2. **Set environment variables**:
-   - Create a `.env` file with your SendGrid API key:
-     ```
-     SENDGRID_API_KEY=your_sendgrid_api_key
-     ```
 
 ## Usage
 
