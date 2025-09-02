@@ -12,7 +12,7 @@ INSTRUCTIONS = (
 
 
 writer_agent = Agent(
-    name="Writer Agent",
+    name="WriterAgent",
     instructions=INSTRUCTIONS,
     model="gpt-4o-mini",
     output_type=ReportData,

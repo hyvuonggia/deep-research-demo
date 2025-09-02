@@ -1,3 +1,9 @@
+---
+title: deep-research-demo
+app_file: deep_research.py
+sdk: gradio
+sdk_version: 5.44.1
+---
 # Deep Research
 
 Deep Research is an AI-powered research assistant that automates the process of planning, searching, synthesizing, and reporting on any research topic. It features a modular agent-based architecture and a user-friendly Gradio interface.
@@ -45,11 +51,15 @@ Deep Research is an AI-powered research assistant that automates the process of 
 
 ## Usage
 
-Run the app:
+
+Run the app locally:
 ```bash
 python deep_research.py
 ```
 The Gradio UI will open in your browser. Enter a topic to start the research process.
+
+Or use the deployed app here:
+[https://huggingface.co/spaces/hyvuonggia/deep-research-demo](https://huggingface.co/spaces/hyvuonggia/deep-research-demo)
 
 ## Customization
 

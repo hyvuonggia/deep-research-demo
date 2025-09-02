@@ -9,7 +9,7 @@ INSTRUCTIONS = (
 )
 
 search_agent = Agent(
-    name="Search Agent",
+    name="SearchAgent",
     instructions=INSTRUCTIONS,
     model="gpt-4o-mini",
     tools=[WebSearchTool(search_context_size="low")],

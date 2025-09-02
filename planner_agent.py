@@ -8,7 +8,7 @@ INSTRUCTIONS = f"You are a helpful research assistant. Given a query, come up wi
 to perform to best answer the query. Output {NUM_OF_SEARCH} terms to query for."
 
 planner_agent = Agent(
-    name="Planner Agent",
+    name="PlannerAgent",
     instructions=INSTRUCTIONS,
     model="gpt-4o-mini",
     output_type=WebSearchPlan,
