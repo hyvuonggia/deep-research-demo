@@ -34,14 +34,13 @@ Deep Research is an AI-powered research assistant that automates the process of 
 - Python 3.8+
 - Gradio
 - python-dotenv
-- sendgrid
 - pydantic
 
 ## Setup
 
 1. **Install dependencies**:
    ```bash
-   pip install gradio python-dotenv sendgrid pydantic
+   pip install gradio python-dotenv pydantic
    ```
 
 ## Usage
